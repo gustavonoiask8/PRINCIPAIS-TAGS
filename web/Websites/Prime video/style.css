@@ -1,0 +1,87 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing:border-box ;
+ color: #fff;
+ text-decoration: none;
+
+}
+header{
+    background-color: #00050d;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.primeiraparte{
+    display: flex;
+    align-items: center;
+}
+.primeiraparte img{
+
+    width: 96px;
+    cursor: pointer;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.primeiraparte nav{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    
+}
+.primeiraparte nav a{
+
+    font-weight: 550;
+    font-size: 13px;
+
+}
+.primeiraparte nav a .rodar{
+    display: inline-block;
+    transform: rotate(90deg);
+    font-size: 17px;
+}
+
+#link{
+
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+#segundaparte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    margin-right: 32px;
+}
+
+#segundaparte i{
+
+    font-size: 20px;
+
+
+
+}
+#segundaparte button{
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+#segundaparte img{
+    width: 30px;
+}
+#assinar{
+
+    background-color: #1a98ff;
+    border-radius: 10px;
+    padding: 7px;
+    
+
+}
