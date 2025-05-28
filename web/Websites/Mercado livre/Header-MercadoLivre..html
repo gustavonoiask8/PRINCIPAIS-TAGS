@@ -1,3 +1,8 @@
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,16 +17,29 @@
       rel="stylesheet"
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+
     />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    
     <title>Mercado Livre</title>
+
 
 </head>
 <body>
     <header>
-<div>
-    <img src="./mercadolivre.webp" alt="">
-    <input type="text" placeholder="Buscar produtos, marcas e muito mais...">
-    <a href=""><img src="./D_NQ_652868-MLA81778045851_012025-OO.webp" alt=""></a>
+<div id="primeiradiv">
+    <img src="./mercadolivre.webp" alt="" class="logo1">
+    
+    <div id="inputs">
+        <input type="text" id="pesquisa" placeholder="Buscar produtos, marcas e muito mais...">
+        <label for="pesquisa"><i class="ri-search-line"></i></label>
+    </div>
+    
+    <img src="./D_NQ_652868-MLA81778045851_012025-OO.webp" alt="">
 </div>
  <div>
     <button>
@@ -35,7 +53,7 @@
     <a href="">Cupons</a>
     <a href="">Supermercados</a>
     <a href="">Moda</a>
-    <a href="">Mercado play</a>
+    <a href=""> <span>GRÁTIS</span> Mercado play</a>
     <a href="">Vender</a>
     <a href="">Contato</a>
 </nav>
